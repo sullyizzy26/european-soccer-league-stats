@@ -20,17 +20,6 @@ A command-line app for exploring player statistics across Europe's top soccer le
 | `playerleague` | Player ↔ league relationship |
 | `positions` | Position lookup |
 
-## Project structure
-
-```
-├── main.py            # Entry point
-├── cli.py             # Menu and input handling
-├── query_engine.py    # SQL queries
-├── database.py        # PostgreSQL connection wrapper
-├── load_data.py       # CSV cleaning and loading
-└── data/              # Raw player profile and stats CSVs
-```
-
 ## Setup
 
 Requires Python 3 and PostgreSQL.
